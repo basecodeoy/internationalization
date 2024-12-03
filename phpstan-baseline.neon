@@ -1,0 +1,291 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Cannot call method in\\(\\) on iterable\\<SplFileInfo\\>\\.$#"
+			count: 1
+			path: .php-cs-fixer.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/CountryCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\CountryCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/CountryCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/CurrencyCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\CurrencyCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/CurrencyCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/LanguageCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\LanguageCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/LanguageCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/LocaleCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\LocaleCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/LocaleCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/PhoneNumberCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\PhoneNumberCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/PhoneNumberCast.php
+
+		-
+			message: "#^Parameter \\#2 \\$regionCode of static method BaseCodeOy\\\\Internationalization\\\\Values\\\\PhoneNumber\\:\\:createFromString\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Data/Casts/PhoneNumberCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/PostalCodeCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\PostalCodeCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/PostalCodeCast.php
+
+		-
+			message: "#^Parameter \\#2 \\$countryCode of static method BaseCodeOy\\\\Internationalization\\\\Values\\\\PostalCode\\:\\:createFromString\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Data/Casts/PostalCodeCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 2
+			path: src/Data/Casts/PostalCodeStringCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\PostalCodeStringCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/PostalCodeStringCast.php
+
+		-
+			message: "#^Parameter \\#2 \\$countryCode of static method BaseCodeOy\\\\Internationalization\\\\Values\\\\PostalCode\\:\\:createFromString\\(\\) expects string\\|null, mixed given\\.$#"
+			count: 1
+			path: src/Data/Casts/PostalCodeStringCast.php
+
+		-
+			message: "#^Construct empty\\(\\) is not allowed\\. Use more strict comparison\\.$#"
+			count: 1
+			path: src/Data/Casts/TimeZoneCast.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Data\\\\Casts\\\\TimeZoneCast\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Data/Casts/TimeZoneCast.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Rules/CountryRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Rules/CurrencyRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Rules/LanguageRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Rules/LocaleRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 4
+			path: src/Rules/PhoneNumberRule.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Rules\\\\PhoneNumberRule\\:\\:setData\\(\\) has parameter \\$data with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Rules/PhoneNumberRule.php
+
+		-
+			message: "#^Property BaseCodeOy\\\\Internationalization\\\\Rules\\\\PhoneNumberRule\\:\\:\\$data type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Rules/PhoneNumberRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Rules/TimeZoneRule.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/Country.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\Country\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Country.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Country\\.php\\:53\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Country.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/Currency.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\Currency\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Currency.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Currency\\.php\\:65\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Currency.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/CurrencyCode.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\CurrencyCode\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/CurrencyCode.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/CurrencyCode\\.php\\:47\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/CurrencyCode.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/Language.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\Language\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Language.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Language\\.php\\:47\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Language.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/Locale.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\Locale\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/Locale.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/Locale\\.php\\:47\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/Locale.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/PhoneNumber.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\PhoneNumber\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/PhoneNumber.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\PhoneNumber\\:\\:jsonSerialize\\(\\) return type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/PhoneNumber.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/PhoneNumber\\.php\\:73\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/PhoneNumber.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/PostalCode.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\PostalCode\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/PostalCode.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/PostalCode\\.php\\:49\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/PostalCode.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Values/TimeZone.php
+
+		-
+			message: "#^Method BaseCodeOy\\\\Internationalization\\\\Values\\\\TimeZone\\:\\:dataCastUsing\\(\\) has parameter \\$arguments with no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/Values/TimeZone.php
+
+		-
+			message: "#^Method class@anonymous/src/Values/TimeZone\\.php\\:47\\:\\:cast\\(\\) has parameter \\$context with generic class Spatie\\\\LaravelData\\\\Support\\\\Creation\\\\CreationContext but does not specify its types\\: TData$#"
+			count: 1
+			path: src/Values/TimeZone.php
+
+		-
+			message: "#^Call to an undefined method Pest\\\\PendingCalls\\\\TestCall\\:\\:expect\\(\\)\\.$#"
+			count: 1
+			path: tests/ArchTest.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Foundation\\\\Application\\:\\:\\$config\\.$#"
+			count: 6
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$app \\(Illuminate\\\\Application\\) of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) should be contravariant with parameter \\$app \\(Illuminate\\\\Foundation\\\\Application\\) of method Orchestra\\\\Testbench\\\\TestCase\\:\\:getPackageProviders\\(\\)$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\#1 \\$path of method Illuminate\\\\Foundation\\\\Application\\:\\:useStoragePath\\(\\) expects string, string\\|false given\\.$#"
+			count: 1
+			path: tests/TestCase.php
+
+		-
+			message: "#^Parameter \\$app of method Tests\\\\TestCase\\:\\:getPackageProviders\\(\\) has invalid type Illuminate\\\\Application\\.$#"
+			count: 1
+			path: tests/TestCase.php
